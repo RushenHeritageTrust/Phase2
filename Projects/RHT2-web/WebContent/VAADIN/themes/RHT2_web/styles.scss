@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "RHT2_web.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in RHT2_web.scss */
+.RHT2_web {
+  @include addons;
+  @include RHT2_web;
+}

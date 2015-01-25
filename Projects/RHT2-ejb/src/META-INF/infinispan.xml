@@ -1,0 +1,24 @@
+<infinispan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:infinispan:config:5.1 http://www.infinispan.org/schemas/infinispan-config-5.1.xsd"
+	xmlns="urn:infinispan:config:5.1">
+	
+	<global>
+		<globalJmxStatistics enabled="true" jmxDomain="rht2Infinispan" />
+	</global>
+	
+	
+	
+	<namedCache name="rht2-short-cache">
+		<expiration wakeUpInterval="-1" lifespan="60000" /> <!--  expire every min -->
+	</namedCache>
+	
+	<namedCache name="rht2-med-cache">
+		<expiration wakeUpInterval="-1" lifespan="300000" /> <!--  expire every 5 mins -->
+	</namedCache>
+	
+	<namedCache name="rht2-long-cache">
+		<expiration wakeUpInterval="-1" lifespan="1800000" /> <!--  expire every 30 mins -->
+	</namedCache>
+
+
+</infinispan>

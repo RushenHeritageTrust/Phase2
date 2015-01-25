@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RHT2">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <dependent-module archiveName="RHT2-ejb.jar" deploy-path="/" handle="module:/resource/RHT2-ejb/RHT2-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.apache.servicemix.bundles.javax-inject-1_2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/bundles/org.apache.servicemix.bundles.javax-inject-1_2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-18.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/bundles/guava-18.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="atmosphere-runtime-2.1.2.vaadin5.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/bundles/atmosphere-runtime-2.1.2.vaadin5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="weld-spi-2.2.SP1.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/weld-spi-2.2.SP1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="weld-api-2.2.SP1.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/weld-api-2.2.SP1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="weld-core-jsf-2.2.1.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/weld-core-jsf-2.2.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="weld-core-2.2.1.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/weld-core-2.2.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="weld-core-impl-2.2.1.Final.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/weld-core-impl-2.2.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.34.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/mysql-connector-java-5.1.34.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-sql-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-sql-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-spatial-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-spatial-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-jpa-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-jpa-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-core-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-core-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-apt-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-apt-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-collections-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-collections-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-sql-codegen-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-sql-codegen-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysema-commons-lang-0.2.4.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/mysema-commons-lang-0.2.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="querydsl-codegen-3.6.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/querydsl-codegen-3.6.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="codegen-0.6.5.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/codegen-0.6.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xpp3_min-1.1.4c.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/xpp3_min-1.1.4c.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xstream-1.4.7.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/xstream-1.4.7.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-push-7.3.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-push-7.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-shared-7.3.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-shared-7.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jpacontainer-3.1.1.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/jpacontainer-3.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-server-7.3.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-server-7.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-client-compiler-deps-1.1.0.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-client-compiler-deps-1.1.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-themes-7.3.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-themes-7.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-sass-compiler-0.9.10.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-sass-compiler-0.9.10.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-client-7.3.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-client-7.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-client-compiled-7.3.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-client-compiled-7.3.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-0.0.20080701.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/json-0.0.20080701.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="R2-web.war" deploy-path="/" handle="module:/resource/RHT2-web/RHT2-web">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsoup-1.6.3.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/jsoup-1.6.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="vaadin-slf4j-jdk14-1.6.1.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-slf4j-jdk14-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
