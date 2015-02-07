@@ -29,7 +29,7 @@ public class Base extends CustomComponent {
 	TestService testService;
 
 	@Inject
-	AccountStatusContainer accountStatusContainer;
+	AccountStatusContainer accountStatusContainer = new AccountStatusContainer();
 
 	/**
 	 * The constructor should first build the main layout, set the composition
