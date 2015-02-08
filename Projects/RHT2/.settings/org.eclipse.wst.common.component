@@ -108,5 +108,23 @@
         <dependent-module archiveName="vaadin-slf4j-jdk14-1.6.1.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/vaadin-slf4j-jdk14-1.6.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="shiro-core-1.2.3.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/bundles/shiro-core-1.2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="shiro-web-1.2.3.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/bundles/shiro-web-1.2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.persistence.jpa-2.5.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/org.eclipse.persistence.jpa-2.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.persistence.jpa.jpql-2.5.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/org.eclipse.persistence.jpa.jpql-2.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.persistence.core-2.5.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/org.eclipse.persistence.core-2.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.persistence.asm-2.5.2.jar" deploy-path="/lib" handle="module:/classpath/lib/RHT2-ejb/lib/jars/org.eclipse.persistence.asm-2.5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>

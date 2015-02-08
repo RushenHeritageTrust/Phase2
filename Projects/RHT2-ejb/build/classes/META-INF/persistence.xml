@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="RHT2-ejb">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 	    <jta-data-source>java:jboss/datasources/RHT</jta-data-source>
+	    <class>com.rht.rht2.entities.Accountstatus</class>
+	    <class>com.rht.rht2.entities.Assetrelations</class>
+	     <class>com.rht.rht2.entities.Assets</class>
+	     <class>com.rht.rht2.entities.Assetstatus</class>
+	     <class>com.rht.rht2.entities.Eventasset</class>
+	     <class>com.rht.rht2.entities.Location</class>
+	     <class>com.rht.rht2.entities.Logonhistory</class>
+	     <class>com.rht.rht2.entities.Media</class>
+	     <class>com.rht.rht2.entities.Meta</class>
+	     <class>com.rht.rht2.entities.Metaname</class>
+	     <class>com.rht.rht2.entities.Metavalue</class>
+	     <class>com.rht.rht2.entities.Notes</class>
+	     <class>com.rht.rht2.entities.Objectasset</class>
+	     <class>com.rht.rht2.entities.Personasset</class>
+	     <class>com.rht.rht2.entities.Placeasset</class>
+	     <class>com.rht.rht2.entities.Relationtypes</class>
+	     <class>com.rht.rht2.entities.Users</class>
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLInnoDBDialect" />
-			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.use_sql_comments" value="true" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.order_updates" value="true" />
 			<property name="hibernate.order_inserts" value="true" />
 			<property name="hibernate.generate_statistics" value="true" />
+			<property name="eclipselink.target-database" value="MySQL"/>
+			<property name="eclipselink.target-server" value="JBoss"/>
+			<property name="eclipselink.session.include.descriptor.queries" value="true"/>
+			<property name="javax.persistence.schema-generation.database.action" value="none"/>
+			<property name="javax.persistence.schema-generation.scripts.action" value="none"/>
+			<property name="eclipselink.ddl-generation" value="none"/>
 		</properties>
 	</persistence-unit>
 </persistence>
